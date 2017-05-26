@@ -1,0 +1,138 @@
+#wrapper{
+    margin: auto;
+    width: 900px;
+    padding: 50px;
+    border: 6px dashed black;
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: teal;
+}
+
+#questionnaire-block{ /* Blok Główny Ankiety */
+    width: 450px;
+    padding: 15px;
+    margin-right: 60px;
+    float: left;
+    background-color: coral;
+}
+
+/* Pola Tekstowe Ankiety */
+
+input[type="text"]{
+    display: block;
+    padding: 5px;
+    font-family: inherit;
+    width: 450px;
+}
+
+#title{
+    font-size: 40px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#info{
+    font-size: 28px; 
+    height: 2em;
+    margin-bottom: 15px;
+}
+
+.answer{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#buttons-block{ /* Blok Główny Przycisków */
+    float: left;
+}
+
+/* Przycisk Powrotu */
+
+#return{
+    font-size: 62px;
+    height: 100px;
+    width: 320px;
+    padding: 10px;
+    padding-bottom: 42px;
+    border-radius: 64px;
+    overflow: hidden;
+    background-color: palevioletred;
+    margin: auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#return > img{
+    float: left;
+    width: 128px;
+    height: 128px;
+}
+
+#return > div{
+    display: inline-block;
+    position: relative; 
+    top: 20px;
+}
+
+#return:hover, #return:focus{
+    background-color: indianred;
+}
+
+/* Zaznaczanie Stanu */
+
+label{
+    display: block;
+    margin: 20px auto;
+    width: 320px;
+}
+
+.radio_box{
+    border: 4px dashed maroon;
+    font-size: 32px;
+    text-align: center;
+    color: grey;
+}
+
+input:checked + .radio_box{
+    background-color: limegreen;
+    color: black;
+}
+
+input:not(:checked) + .radio_box{
+    background-color: rgba(40, 200, 30, 0.3);
+    border-color: lightseagreen;
+}
+
+/* Przycisk Podsumowania */
+
+#done{
+    display: block;
+    padding: 5px;
+    font-family: inherit;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 32px;
+    outline: none;
+    border: 5px dashed darkcyan;
+    background-color: mediumseagreen;
+    cursor: pointer;
+}
+
+
+#done:hover{
+    background-color: limegreen;
+}
+
+/* Ogólne */
+
+a:link, a:visited, a:hover, a:active{
+    text-align: center; 
+    text-decoration: none;
+    color: black;
+}
+
+input[type="number"],[type="radio"]{
+    display: none;
+}

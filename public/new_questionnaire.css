@@ -1,0 +1,13 @@
+#add-remove-box{
+    overflow: hidden; 
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.add-remove-button{
+    display: block; 
+    float: left; 
+    width: 165px; 
+    height: 165px; 
+    margin: 5px; 
+}

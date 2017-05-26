@@ -1,0 +1,39 @@
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    font-size: 48px;
+    background-color: mediumseagreen;
+    border: 6px dotted darkgreen;
+    font-family: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 16px;
+}
+
+#new_questionnaire{
+    display: table; 
+    font-size: 64px; 
+    border: 4px dotted green; 
+    padding: 8px; 
+    width: 600px; 
+    text-align: center; 
+    border-radius: 24px; 
+    margin: 0px auto 20px; 
+    background-color: mediumseagreen
+}
+
+#new_questionnaire:hover , #new_questionnaire:focus{
+    background-color: seagreen;
+}
+
+a , a:hover , a:focus{
+    color: inherit;
+    text-decoration: inherit;
+}
