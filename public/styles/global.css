@@ -1,0 +1,8 @@
+body{
+    margin: 0px !important; /* remove default margin */
+    padding:0; /* remove default padding */
+    width:100%; /* take full browser width */
+    height:100%; /* take full browser height*/
+    background-image: url("../imgs/leather.png");
+    font-family: 'Kalam', cursive;
+}

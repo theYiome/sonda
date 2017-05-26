@@ -1,0 +1,163 @@
+#wrapper{
+    margin: 0.2% auto;
+    display: block;
+    user-select: none;
+    width: 900px;
+    background-color: rgba(140, 120, 120, 0.4);
+    padding: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: 6px dashed black;
+    overflow: hidden;
+    border-radius: 16px;
+    color: floralwhite;
+}
+
+#top_bar{
+    width: 900px;
+    height: 150px;
+}
+
+#return{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    font-size: 68px;
+    text-align: center;
+    float: left;
+    width: 350px;
+    height: 100px;
+    padding: 25px;
+    background-color: dimgrey;
+}
+
+#return:hover , #return:focus , #return:target{
+    background-color: seagreen;
+    border: 4px dashed black;
+    padding: 21px;
+}
+
+#title{
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 64px;
+    float: left;
+    width: 450px;
+    height: 100px;
+    padding: 25px;
+    background-color: slategrey;
+}
+
+#login_box{
+    float: left;
+    position: relative;
+    right: 10px;
+    width: 500px;
+}
+
+#imputs{
+    width: 450px;
+    padding: 25px;
+    height: 350px;
+    background-color: grey;
+    padding-bottom: 0px;
+}
+
+#login_msg{
+    text-align: center;
+    font-style: italic;
+    width: 450px;
+    margin: 0;
+    padding: 25px;
+    height: 175px;
+    background-color: dimgrey;
+    font-size: 42px;
+}
+
+#info{
+    position: relative;
+    font-size: 30px;
+    height: 550px;
+    width: 350px;
+    padding: 25px;
+    float: left;
+    background-color: lightslategrey;
+}
+
+a{
+    color: inherit;
+}
+
+label{
+    display: block;
+}
+
+input{
+    border: 2px dashed black;
+    border-radius: 6px;
+    outline: none;
+    margin: 20px;
+    font-family: inherit;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 4px;
+}
+
+input[type="text"],[type="password"]{
+    font-size: 31px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover{
+    background-color: lightgreen;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    background-color: seagreen;
+    color: inherit;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: seagreen;
+    color: inherit;
+    font-size: 40px;
+}
+
+input[type="submit"]:hover{
+    background-color: #1e7b37;
+}
+
+@keyframes hvr-wobble-vertical {
+  16.65%{
+    transform: translateY(1px);
+  }
+  33.3%{
+    transform: translateY(-2px);
+  }
+  49.95%{
+    transform: translateY(3px);
+  }
+  66.6%{
+    transform: translateY(-1px);
+  }
+  83.25%{
+    transform: translateY(2px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  animation-name: hvr-wobble-vertical;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+						
